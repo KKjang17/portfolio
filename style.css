@@ -141,6 +141,13 @@ a:hover {
 
 /* ***** Footer styling ***** */
 
+/*** 
+
+This styling of the footer looks bad in Chrome, 
+but trying to get the footer to stay at the bottom breaks it in Firefox so this was the safest option.
+
+***/
+
 footer {
     background-color: #263238;
     text-align: center;
