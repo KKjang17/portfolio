@@ -1,0 +1,152 @@
+/* ***** Resets the padding and margins of everything to at zero instead of default values ***** */
+
+html, body, header, main, article, h3, ul, li, body, div, p, img {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    border: 0;
+}
+
+/* ***** Header ***** */
+
+header {
+    background-color: #263238;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.titleBar {
+    background-image: url("images/header-background.jpg");
+    background-size: 75px, 60px;
+    background-repeat: repeat-x;
+    height: 56px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ***** Profile Picture ***** */
+
+.profilePicture {
+    width: 170px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-color: #C5CAE9;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.profilePic {
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    height: 160px;
+}
+
+
+
+/* ***** Headers ***** */
+
+h1 {
+    margin: 0;
+    font-family: Comic Sans MS;
+    color: antiquewhite;
+}
+
+h2 {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    padding-left: 10px;
+}
+
+h3 {
+    color: white;
+    font-size: small;
+    font-style: italic;
+    padding: 10px;
+}
+
+/* ***** Paragraphs and making the line break smaller ***** */
+
+p {
+    margin: 10px;
+}
+
+hr {
+    width: 100px;
+}
+
+
+/* ***** Styling the list of Projects ***** */
+
+#projects {
+    margin: 10px;
+    text-align: center;
+}
+
+#projects li {
+    font-size: small;
+    display: inline;
+    padding: 5px 3px 5px 3px;
+}
+
+/* ***** Styling contact list ***** */
+
+#contacts {
+    text-align: center;
+    list-style-position: inside;
+}
+
+/* ***** Links ***** */
+
+a:link, a:visited {
+    color: deeppink;
+}
+
+a:hover {
+    background-color: #FF3D00;
+    color: white;
+}
+
+
+/* ***** Styling the main content boxes ***** */
+
+.contentBlock {
+    border-color: #C5CAE9;
+    border-style: solid;
+    border-width: 1px;
+    margin: 75px 100px 0px 100px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.titlePattern {
+    background-image: url("images/header-background.jpg");
+    background-size: 45px, 30px;
+    background-repeat: repeat-x;
+    height: 40px;
+}
+
+.whiteText {
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 0px 0px 10px;
+}
+
+/* ***** Footer styling ***** */
+
+footer {
+    background-color: #263238;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
